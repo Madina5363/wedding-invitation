@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahzod & Madina To'y Taklifnomasi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=934&q=80') no-repeat center center/cover;
+      color: #fff;
+    }
+    .overlay {
+      background: rgba(0,0,0,0.5);
+      padding: 40px;
+      text-align: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      margin: 0.2em 0;
+    }
+    .date-box {
+      font-size: 1.2rem;
+      margin: 1em 0;
+      background-color: rgba(255,255,255,0.2);
+      padding: 10px 20px;
+      display: inline-block;
+      border-radius: 8px;
+    }
+    .location {
+      font-style: italic;
+      margin-bottom: 2em;
+    }
+    .note {
+      background: rgba(255,255,255,0.2);
+      padding: 10px;
+      border-radius: 6px;
+      max-width: 600px;
+      margin: 1em auto;
+    }
+    form {
+      background-color: rgba(255,255,255,0.2);
+      padding: 20px;
+      max-width: 400px;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    @media(max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <p>TO'YGA TAKLIFNOMA</p>
+    <h1>Shahzod & Madina</h1>
+    <div class="date-box">Payshanba, 31 IYUL</div>
+    <p class="location">Quanіsh to'yhonasi birinchi binosi</p>
+
+    <div class="note">
+      Ushbu unutilmas kunimizda siz bilan bo'lishni intiqlik bilan kutmoqdamiz! <br>
+      Iltimos, marosim davomida bolalarning yugurib, marosimni buzmasligiga e'tibor qarating. <br>
+      Tushunganingiz uchun tashakkur!
+    </div>
+
+    <form action="#" method="POST">
+      <h3>RSVP – Ishtirokingizni tasdiqlang</h3>
+      <input type="text" name="name" placeholder="Ismingiz" required>
+      <input type="number" name="guests" placeholder="Necha kishilik kelmoqchisiz?" required>
+      <textarea name="message" placeholder="Izoh (ixtiyoriy)"></textarea>
+      <button type="submit">Yuborish</button>
+    </form>
+  </div>
+</body>
+</html>
